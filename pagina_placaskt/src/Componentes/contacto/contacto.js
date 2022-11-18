@@ -5,7 +5,7 @@ import "./contacto.css";
 const Contacto = () => {
 const { register, formState:{ errors}, watch ,handleSubmit } = useForm("");
 const onSubmit = (data) =>{ 
-  console.log(data);
+console.log(data);
 }
     return (
         <>

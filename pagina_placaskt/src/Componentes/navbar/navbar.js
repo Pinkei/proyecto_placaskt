@@ -1,4 +1,4 @@
-/* import React from "react";
+import React from "react";
 import "./navbar.css";
 
 import {Container,Nav,Navbar} from 'react-bootstrap'
@@ -15,9 +15,7 @@ const Menu = () => {
                     <Nav className="me-auto">
                         <Nav.Link href="/">Cosme fulanito </Nav.Link>
                         <Nav.Link href="/contacto">Contacto</Nav.Link>
-                        <Nav.Link href="/contacto">Contacto</Nav.Link>
-
-                        
+                        <Nav.Link href="">Otro item</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
@@ -26,4 +24,3 @@ const Menu = () => {
     );
 };
 export default Menu;
- */

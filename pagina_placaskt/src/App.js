@@ -1,5 +1,5 @@
 import "./App.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Home from "./componentes/home/home";
 import Navbar from "./componentes/navbar/navbar";
 import Footer from "./componentes/footer/footer";
@@ -10,15 +10,13 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      
       <Switch>
         <Route exact path="/">
         <Home />
         </Route>
         <Route exact path="/contacto">     
           <Contacto />
-          </Route>
-
+        </Route>
       </Switch>
 
       <Footer />
