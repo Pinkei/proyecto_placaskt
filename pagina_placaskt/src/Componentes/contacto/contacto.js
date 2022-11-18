@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "react-hook-form";
 import "./contacto.css";
 
-const Contacto = () => {
+const contacto = () => {
 const { register, formState:{ errors}, watch ,handleSubmit } = useForm("");
 const onSubmit = (data) =>{ 
 console.log(data);
@@ -12,7 +12,8 @@ console.log(data);
         {/* ------------------FORMULARIO---------- */}
         <h2> Formulario</h2>
         <div> Nombre:{ watch('nombre')}</div>
-        <form>
+        <form onSubmit={handleSubmit(onSubmit)}>
+
             <div>
                 <label>Nombre</label>
                 <input type="text" {...register('nombre', {required: true, maxLength:10

@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "dom": "^0.0.3",
+    "react-bootstrap": "^2.6.0",
+    "react-hook-form": "^7.39.4",
+    "react-router": "^6.4.3"
+  }
+}
