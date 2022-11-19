@@ -22,8 +22,9 @@ function App() {
         <Navbar/>
       </Routes>
       <Footer />
+      <Contacto/>
     </BrowserRouter>
   );
-}
+};
 
 export default App;
